@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>OscarBenítezWeb</title>
+</head>
+<body>
+    <aside>
+        <figure>
+            <div id="foto">
+                <img src="C:\Users\oscar\OneDrive\Documentos\ESEN\Ciclo 1 Tercer año\Programación de interfaces\Pagina web\Website\6d65793f-0591-4ff6-aa9a-2122ccee9fd9.jpg" alt="">
+            </div>
+            <figcaption>Oscar Benítez</figcaption>
+        </figure>
+        <div class="imagen">
+            <img src="C:\Users\oscar\OneDrive\Documentos\ESEN\Ciclo 1 Tercer año\Programación de interfaces\Pagina web\Website\pngwing.com.png" alt="">
+        </div>
+       
+        <nav>
+            <ul class= "active" >
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="aboutme.html">Acerca de mi</a></li>
+                <li><a href="Servicios.html">Habilidades</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <h1>Contacto</h1>
+        <h2>Correo Electrónico</h2>
+        <p>20204039@esen.edu.sv</p>
+        <h2>Enlace de Github</h2>
+        <a href="#">https://github.com/oscarbenitez08</a>
+        <script>
+        (function() {
+            var menu = document.querySelector('ul'),
+                menulink = document.querySelector('img');
+            menulink.addEventListener('click', function(e) {
+                menu.classList.toggle('active');
+                e.preventDefault();
+            });     
+        })();
+    </script>
+    </main>
+    
+  
+</body>
+</html>
